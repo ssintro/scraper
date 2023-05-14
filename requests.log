@@ -1,0 +1,19 @@
+22:30:11 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dashboard.pnmtoken.com:443
+22:30:12 - connectionpool - DEBUG - _make_request: 546 - https://dashboard.pnmtoken.com:443 "GET /api/dpnm/price HTTP/1.1" 200 None
+14:46:35 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dashboard.pnmtoken.com:443
+14:46:35 - connectionpool - DEBUG - _make_request: 546 - https://dashboard.pnmtoken.com:443 "GET /api/dpnm/price HTTP/1.1" 200 None
+15:00:18 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dashboard.pnmtoken.com:443
+15:00:18 - connectionpool - DEBUG - _make_request: 546 - https://dashboard.pnmtoken.com:443 "GET /api/dpnm/price HTTP/1.1" 200 None
+15:00:18 - api - DEBUG - from_bytes: 437 - Encoding detection: ascii is most likely the one.
+15:02:58 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dpnmdefi.com:443
+15:02:58 - connectionpool - DEBUG - _make_request: 546 - https://dpnmdefi.com:443 "GET /app/ HTTP/1.1" 200 None
+15:02:58 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dashboard.pnmtoken.com:443
+15:02:58 - connectionpool - DEBUG - _make_request: 546 - https://dashboard.pnmtoken.com:443 "GET /api/dpnm/price HTTP/1.1" 200 None
+15:04:24 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dpnmdefi.com:443
+15:04:24 - connectionpool - DEBUG - _make_request: 546 - https://dpnmdefi.com:443 "GET /app/ HTTP/1.1" 200 None
+15:04:24 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dashboard.pnmtoken.com:443
+15:04:24 - connectionpool - DEBUG - _make_request: 546 - https://dashboard.pnmtoken.com:443 "GET /api/dpnm/price HTTP/1.1" 200 None
+15:05:29 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dpnmdefi.com:443
+15:05:29 - connectionpool - DEBUG - _make_request: 546 - https://dpnmdefi.com:443 "GET /app/ HTTP/1.1" 200 None
+15:05:29 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dashboard.pnmtoken.com:443
+15:05:29 - connectionpool - DEBUG - _make_request: 546 - https://dashboard.pnmtoken.com:443 "GET /api/dpnm/price HTTP/1.1" 200 None
