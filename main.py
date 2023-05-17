@@ -1,63 +1,47 @@
 import logging
 import json
-import requests
 from bs4 import BeautifulSoup
+import requests
 import lxml
 
+headers = {
+    "accept": "*/*",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42"
+}
 
-# Настройка объекта logger
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
+URL_PRICE = 'https://dashboard.pnmtoken.com/api/dpnm/price'
+URL = 'https://dpnmdefi.com/app/'
 
-# Создание обработчика для вывода логов в консоль
-console_handler = logging.StreamHandler()
-console_handler.setLevel(logging.DEBUG)
-
-# Создание обработчика для записи логов в файл
-file_handler = logging.FileHandler('logs.log')
-file_handler.setLevel(logging.ERROR)
-
-# Создание форматтера для вывода логов
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-console_handler.setFormatter(formatter)
-file_handler.setFormatter(formatter)
-
-# Добавление обработчиков в logger
-logger.addHandler(console_handler)
-logger.addHandler(file_handler)
-
-
-logging.basicConfig(
+def logs():
+    logging.basicConfig(
     level=logging.DEBUG,
     filename = "requests.log",
     format = "%(asctime)s - %(module)s - %(levelname)s - %(funcName)s: %(lineno)d - %(message)s",
     datefmt='%H:%M:%S',
     )
 
+def getUserInfo():
+    responseInfo = requests.get(URL, headers=headers)
+    soup = BeautifulSoup(responseInfo.content, 'lxml')
+    data_balance = soup.find("div", class_="flex-grow-1 ms-3")
+    print(data_balance)
 
-try:
-    URL = 'https://dpnmdefi.com/app/'
-    URL_PRICE = 'https://dashboard.pnmtoken.com/api/dpnm/price'
-    response = requests.get(URL)
-    response_price = requests.get(URL_PRICE)
-    rt = response_price.text
+def getPrice():
 
-    soup = BeautifulSoup(response.content, "lxml")
-
-    pool = soup.find("p", {"class": "header-icon2 fw-medium text-white-50"})
-
-    pool_text = pool.get_text()
-
-    print(pool_text)
+    responsePrice = requests.get(URL_PRICE, headers=headers)
+    responsePrice.raise_for_status()  # Raise an exception if the status code is an error code
+    rt = responsePrice.text
 
     rt_list = json.loads(rt)
-    result = [f"Date {x['date']}: Price {x['price']:.2f}\n" for x in rt_list]
+    result = [f"Date: {x['date']}, Price: {x['price']:.4f}\n" for x in rt_list]
 
     with open('data.txt', 'w') as file:
         file.writelines(result)
 
-except requests.exceptions.RequestException as e:
-    logger.error(f"Error: {e}")
+def main():
+    logs()
+    getPrice()
+    getUserInfo()
 
-except json.JSONDecodeError as e:
-    logger.error(f"Error: Unable to parse JSON data: {e}")
+if __name__ == '__main__':
+    main()
