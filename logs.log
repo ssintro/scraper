@@ -1,0 +1,9 @@
+17:44:10 - main - INFO - getInfo: 16 - Started
+17:44:10 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): coinmarketcap.com:443
+17:44:10 - connectionpool - DEBUG - _make_request: 546 - https://coinmarketcap.com:443 "GET /ru/ HTTP/1.1" 200 None
+17:44:10 - main - ERROR - getInfo: 28 - Error: 'NoneType' object has no attribute 'find'
+17:44:54 - main - INFO - getInfo: 16 - Started
+17:44:54 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): coinmarketcap.com:443
+17:44:55 - connectionpool - DEBUG - _make_request: 546 - https://coinmarketcap.com:443 "GET /ru/ HTTP/1.1" 200 None
+17:44:55 - main - ERROR - getInfo: 30 - Error: 'NoneType' object has no attribute 'find'
+17:44:55 - main - INFO - getInfo: 32 - Ended

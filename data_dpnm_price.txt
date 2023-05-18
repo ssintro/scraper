@@ -27,3 +27,4 @@ Date: 05/13, Price: 6.2200
 Date: 05/14, Price: 6.2300
 Date: 05/15, Price: 6.2300
 Date: 05/16, Price: 6.2400
+Date: 05/17, Price: 6.2500
