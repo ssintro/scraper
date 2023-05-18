@@ -1,9 +1,103 @@
-17:44:10 - main - INFO - getInfo: 16 - Started
-17:44:10 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): coinmarketcap.com:443
-17:44:10 - connectionpool - DEBUG - _make_request: 546 - https://coinmarketcap.com:443 "GET /ru/ HTTP/1.1" 200 None
-17:44:10 - main - ERROR - getInfo: 28 - Error: 'NoneType' object has no attribute 'find'
-17:44:54 - main - INFO - getInfo: 16 - Started
-17:44:54 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): coinmarketcap.com:443
-17:44:55 - connectionpool - DEBUG - _make_request: 546 - https://coinmarketcap.com:443 "GET /ru/ HTTP/1.1" 200 None
-17:44:55 - main - ERROR - getInfo: 30 - Error: 'NoneType' object has no attribute 'find'
-17:44:55 - main - INFO - getInfo: 32 - Ended
+17:54:02 - main - INFO - getInfo: 17 - Started
+17:54:02 - main - DEBUG - getInfo: 20 - Processing
+17:54:02 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+17:54:02 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 403 None
+17:54:02 - main - ERROR - getInfo: 36 - Error: 'NoneType' object has no attribute 'find'
+17:54:02 - main - INFO - getInfo: 38 - Ended
+17:56:53 - main - INFO - getInfo: 17 - Started
+17:56:53 - main - DEBUG - getInfo: 20 - Processing
+17:56:53 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+17:56:53 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 403 None
+17:56:53 - main - ERROR - getInfo: 38 - Error: 'NoneType' object has no attribute 'find'
+17:56:53 - main - INFO - getInfo: 40 - Ended
+18:00:56 - main - INFO - getInfo: 17 - Started
+18:00:56 - main - DEBUG - getInfo: 20 - Processing
+18:00:56 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:00:56 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 403 None
+18:00:56 - main - ERROR - getInfo: 38 - Error: 'NoneType' object has no attribute 'find'
+(added headers)
+18:00:56 - main - INFO - getInfo: 40 - Ended
+18:14:56 - main - INFO - getInfo: 22 - Started
+18:14:56 - main - DEBUG - getInfo: 25 - Processing
+18:14:56 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:14:56 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:14:57 - main - INFO - getInfo: 38 - Success
+18:14:57 - main - INFO - getInfo: 40 - Ended
+18:15:31 - main - INFO - getInfo: 22 - Started
+18:15:31 - main - DEBUG - getInfo: 25 - Processing
+18:15:31 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:15:31 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:15:31 - main - INFO - getInfo: 38 - Success
+18:15:31 - main - INFO - getInfo: 40 - Ended
+18:15:53 - main - INFO - getInfo: 22 - Started
+18:15:53 - main - DEBUG - getInfo: 25 - Processing
+18:15:53 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:15:54 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:15:54 - main - INFO - getInfo: 38 - Success
+18:15:54 - main - INFO - getInfo: 40 - Ended
+18:16:15 - main - INFO - getInfo: 22 - Started
+18:16:15 - main - DEBUG - getInfo: 25 - Processing
+18:16:15 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:16:15 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:16:15 - main - INFO - getInfo: 38 - Success
+18:16:15 - main - INFO - getInfo: 40 - Ended
+18:16:24 - main - INFO - getInfo: 22 - Started
+18:16:24 - main - DEBUG - getInfo: 25 - Processing
+18:16:24 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:16:24 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:16:24 - main - INFO - getInfo: 38 - Success
+18:16:24 - main - INFO - getInfo: 40 - Ended
+18:18:40 - main - INFO - getInfo: 22 - Started
+18:18:40 - main - DEBUG - getInfo: 25 - Processing
+18:18:40 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:18:40 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:18:40 - main - ERROR - getInfo: 43 - Error: 'NoneType' object has no attribute 'text'
+18:18:40 - main - INFO - getInfo: 45 - Ended
+18:18:53 - main - INFO - getInfo: 22 - Started
+18:18:53 - main - DEBUG - getInfo: 25 - Processing
+18:18:53 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:18:54 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:18:54 - main - INFO - getInfo: 38 - Success
+18:18:54 - main - INFO - getInfo: 40 - Ended
+18:23:19 - main - INFO - getInfo: 22 - Started
+18:23:19 - main - DEBUG - getInfo: 25 - Processing
+18:23:19 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:23:19 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:23:19 - main - INFO - getInfo: 38 - Success
+18:23:19 - main - INFO - getInfo: 40 - Ended
+18:23:54 - main - INFO - getInfo: 22 - Started
+18:23:54 - main - DEBUG - getInfo: 25 - Processing
+18:23:54 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:23:55 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:23:55 - main - INFO - getInfo: 38 - Success
+18:23:55 - main - INFO - getInfo: 40 - Ended
+18:24:24 - main - INFO - getInfo: 22 - Started
+18:24:24 - main - DEBUG - getInfo: 25 - Processing
+18:24:24 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:24:25 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:24:25 - main - INFO - getInfo: 38 - Success
+18:24:25 - main - INFO - getInfo: 40 - Ended
+18:25:30 - main - INFO - getInfo: 22 - Started
+18:25:30 - main - DEBUG - getInfo: 25 - Processing
+18:25:30 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:25:31 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:25:31 - main - INFO - getInfo: 38 - Success
+18:25:31 - main - INFO - getInfo: 40 - Ended
+18:26:02 - main - INFO - getInfo: 22 - Started
+18:26:02 - main - DEBUG - getInfo: 25 - Processing
+18:26:02 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:26:02 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:26:02 - main - INFO - getInfo: 38 - Success
+18:26:02 - main - INFO - getInfo: 40 - Ended
+20:32:49 - main - INFO - getInfo: 22 - Started
+20:32:49 - main - DEBUG - getInfo: 25 - Processing
+20:32:49 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+20:32:50 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+20:32:50 - main - INFO - getInfo: 38 - Success
+20:32:50 - main - INFO - getInfo: 40 - Ended
+20:33:44 - main - INFO - getInfo: 22 - Started
+20:33:44 - main - DEBUG - getInfo: 25 - Processing
+20:33:44 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+20:33:44 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+20:33:44 - main - INFO - getInfo: 38 - Success
+20:33:44 - main - INFO - getInfo: 40 - Ended

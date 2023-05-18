@@ -1,6 +1,0 @@
-14:28:19 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dpnmdefi.com:443
-14:28:19 - connectionpool - DEBUG - _make_request: 546 - https://dpnmdefi.com:443 "GET /app/ HTTP/1.1" 200 None
-14:28:19 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dashboard.pnmtoken.com:443
-14:28:19 - connectionpool - DEBUG - _make_request: 546 - https://dashboard.pnmtoken.com:443 "GET /api/dpnm/price HTTP/1.1" 200 None
-14:31:43 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dashboard.pnmtoken.com:443
-14:31:43 - connectionpool - DEBUG - _make_request: 546 - https://dashboard.pnmtoken.com:443 "GET /api/dpnm/price HTTP/1.1" 200 None
