@@ -22,7 +22,7 @@ def getInfo(url, headers=headers):
     logging.info("Started")
 
     try:
-        logging.debug("Processing")
+        logging.debug("Processing def getInfo")
 
         req = requests.get(url=url, headers=headers)
 
@@ -30,19 +30,45 @@ def getInfo(url, headers=headers):
 
         soup = BeautifulSoup(req.text, 'lxml')
 
-        first_job = soup.find('div', class_='col70 m-cola').find(
-            'ul', class_='b-index-links').find('li').find('a', href='https://jobs.dou.ua/first-job/?from=doufp')
+        jobs_href = soup.find('header').find(
+            'ul').find('a', href='https://jobs.dou.ua/')
 
-        print(f"{first_job.text}: {first_job.get('href')}")
+        link_to_jobs = jobs_href.get('href')
+
+        getJobs(link_to_jobs, headers)
 
         logging.info("Success")
 
-        logging.info("Ended")
+    except Exception as err:
+        logging.exception(err)
 
-    except Exception as e:
-        logging.error('Error: %s', str(e))
+        logging.info("Ended on def getInfo")
 
-        logging.info("Ended")
+
+def getJobs(url, headers):
+    logging.debug("Processing def getInfo")
+
+    try:
+        req = requests.get(url=url, headers=headers)
+
+        print(f"[+] {url} {req.status_code}")
+
+        soup = BeautifulSoup(req.text, 'lxml')
+
+        find_jobs = soup.find_all('a', {'class': 'cat-link'})
+
+        jobs = []
+
+        for cat in find_jobs:
+            jobs.append(f"Job as {cat.text}: {cat.get('href')}")
+
+        with open('data_jobs_dou.txt', 'w', encoding='utf-8') as file:
+            file.writelines('\n'.join(jobs))
+
+    except Exception as err:
+        logging.exception(err)
+
+        logging.info("Ended on def getJobs")
 
 
 def main():
@@ -51,3 +77,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    

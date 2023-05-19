@@ -101,3 +101,223 @@
 20:33:44 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
 20:33:44 - main - INFO - getInfo: 38 - Success
 20:33:44 - main - INFO - getInfo: 40 - Ended
+13:32:06 - main - INFO - getInfo: 22 - Started
+13:32:06 - main - DEBUG - getInfo: 25 - Processing
+13:32:06 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+13:32:06 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+13:32:06 - main - INFO - getInfo: 38 - Success
+13:32:06 - main - INFO - getInfo: 40 - Ended
+13:32:06 - main - INFO - getInfo: 22 - Started
+13:32:06 - main - DEBUG - getInfo: 25 - Processing
+13:32:06 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+13:32:07 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+13:32:07 - main - INFO - getInfo: 38 - Success
+13:32:07 - main - INFO - getInfo: 40 - Ended
+13:36:21 - main - INFO - getInfo: 22 - Started
+13:36:21 - main - DEBUG - getInfo: 25 - Processing
+13:36:21 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+13:36:21 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+13:36:21 - main - INFO - getInfo: 38 - Success
+13:36:21 - main - INFO - getInfo: 40 - Ended
+13:57:21 - main - INFO - getInfo: 22 - Started
+13:57:21 - main - DEBUG - getInfo: 25 - Processing
+13:57:21 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+13:57:21 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+13:57:21 - main - INFO - getInfo: 40 - Success
+13:57:21 - main - INFO - getInfo: 42 - Ended
+14:00:33 - main - INFO - getInfo: 22 - Started
+14:00:33 - main - DEBUG - getInfo: 25 - Processing
+14:00:34 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+14:00:34 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+14:00:45 - main - INFO - getInfo: 22 - Started
+14:00:45 - main - DEBUG - getInfo: 25 - Processing
+14:00:45 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+14:00:46 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+14:06:44 - main - INFO - getInfo: 22 - Started
+14:06:44 - main - DEBUG - getInfo: 25 - Processing
+14:06:44 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+14:06:45 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+14:06:45 - main - ERROR - getInfo: 45 - 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "e:\Projects\parcer\main.py", line 36, in getInfo
+    print(f"{first_job.text}: {first_job.get('href')}")
+             ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+14:06:45 - main - INFO - getInfo: 47 - Ended
+14:10:44 - main - INFO - getInfo: 22 - Started
+14:10:44 - main - DEBUG - getInfo: 25 - Processing
+14:10:44 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+14:10:44 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+14:10:44 - main - INFO - getInfo: 40 - Success
+14:10:44 - main - INFO - getInfo: 42 - Ended
+14:42:39 - main - INFO - getInfo: 22 - Started
+14:42:39 - main - DEBUG - getInfo: 25 - Processing
+14:42:39 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+14:42:39 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+14:42:39 - main - INFO - getInfo: 38 - Success
+14:42:39 - main - INFO - getInfo: 40 - Ended
+14:48:31 - main - INFO - getInfo: 22 - Started
+14:48:31 - main - DEBUG - getInfo: 25 - Processing
+14:48:31 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+14:48:32 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+14:48:32 - main - INFO - getInfo: 41 - Success
+14:48:32 - main - INFO - getInfo: 43 - Ended
+14:55:07 - main - INFO - getInfo: 22 - Started
+14:55:07 - main - DEBUG - getInfo: 25 - Processing
+14:55:07 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+14:55:08 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+14:55:08 - main - INFO - getInfo: 43 - Success
+14:55:08 - main - INFO - getInfo: 45 - Ended
+14:55:46 - main - INFO - getInfo: 22 - Started
+14:55:46 - main - DEBUG - getInfo: 25 - Processing
+14:55:46 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+14:55:46 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+14:55:47 - main - ERROR - getInfo: 50 - ResultSet object has no attribute 'text'. You're probably treating a list of elements like a single element. Did you call find_all() when you meant to call find()?
+Traceback (most recent call last):
+  File "e:\Projects\parcer\main.py", line 40, in getInfo
+    print(jobs.text)
+          ^^^^^^^^^
+  File "C:\Users\Lev\AppData\Local\Programs\Python\Python311\Lib\site-packages\bs4\element.py", line 2428, in __getattr__
+    raise AttributeError(
+AttributeError: ResultSet object has no attribute 'text'. You're probably treating a list of elements like a single element. Did you call find_all() when you meant to call find()?
+14:55:47 - main - INFO - getInfo: 52 - Ended
+16:16:48 - main - INFO - getInfo: 22 - Started
+16:16:48 - main - DEBUG - getInfo: 25 - Processing
+16:16:48 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+16:16:49 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+16:16:49 - main - ERROR - getInfo: 50 - ResultSet object has no attribute 'text'. You're probably treating a list of elements like a single element. Did you call find_all() when you meant to call find()?
+Traceback (most recent call last):
+  File "e:\Projects\parcer\main.py", line 40, in getInfo
+    print(jobs.text)
+          ^^^^^^^^^
+  File "C:\Users\Lev\AppData\Local\Programs\Python\Python311\Lib\site-packages\bs4\element.py", line 2428, in __getattr__
+    raise AttributeError(
+AttributeError: ResultSet object has no attribute 'text'. You're probably treating a list of elements like a single element. Did you call find_all() when you meant to call find()?
+16:16:49 - main - INFO - getInfo: 52 - Ended
+17:38:48 - main - INFO - getInfo: 22 - Started
+17:38:48 - main - DEBUG - getInfo: 25 - Processing
+17:38:48 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+17:38:49 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+17:38:49 - main - ERROR - getInfo: 52 - cannot access local variable 'jobs_href' where it is not associated with a value
+Traceback (most recent call last):
+  File "e:\Projects\parcer\main.py", line 33, in getInfo
+    soup2 = BeautifulSoup(jobs_href.get('href'), 'lxml')
+                          ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'jobs_href' where it is not associated with a value
+17:38:49 - main - INFO - getInfo: 54 - Ended
+17:46:22 - main - INFO - getInfo: 22 - Started
+17:46:22 - main - DEBUG - getInfo: 25 - Processing
+17:46:22 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+17:46:23 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+17:46:23 - main - INFO - getInfo: 39 - Success
+17:46:23 - main - INFO - getInfo: 41 - Ended
+17:46:48 - main - INFO - getInfo: 22 - Started
+17:46:48 - main - DEBUG - getInfo: 25 - Processing
+17:46:48 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+17:46:48 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+17:46:48 - main - INFO - getInfo: 39 - Success
+17:46:48 - main - INFO - getInfo: 41 - Ended
+17:52:10 - main - INFO - getInfo: 22 - Started
+17:52:10 - main - DEBUG - getInfo: 25 - Processing def getInfo
+17:52:10 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+17:52:10 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+17:52:10 - main - DEBUG - getJobs: 51 - Processing def getInfo
+17:52:10 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): jobs.dou.ua:443
+17:52:11 - connectionpool - DEBUG - _make_request: 546 - https://jobs.dou.ua:443 "GET / HTTP/1.1" 200 None
+17:52:11 - main - INFO - getInfo: 42 - Success
+17:52:48 - main - INFO - getInfo: 22 - Started
+17:52:48 - main - DEBUG - getInfo: 25 - Processing def getInfo
+17:52:48 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+17:52:48 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+17:52:48 - main - DEBUG - getJobs: 49 - Processing def getInfo
+17:52:48 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): jobs.dou.ua:443
+17:52:49 - connectionpool - DEBUG - _make_request: 546 - https://jobs.dou.ua:443 "GET / HTTP/1.1" 200 None
+17:52:49 - main - INFO - getInfo: 40 - Success
+17:54:10 - main - INFO - getInfo: 22 - Started
+17:54:10 - main - DEBUG - getInfo: 25 - Processing def getInfo
+17:54:10 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+17:54:11 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+17:54:11 - main - DEBUG - getJobs: 49 - Processing def getInfo
+17:54:11 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): jobs.dou.ua:443
+17:54:11 - connectionpool - DEBUG - _make_request: 546 - https://jobs.dou.ua:443 "GET / HTTP/1.1" 200 None
+17:54:11 - main - INFO - getInfo: 40 - Success
+17:56:07 - main - INFO - getInfo: 22 - Started
+17:56:07 - main - DEBUG - getInfo: 25 - Processing def getInfo
+17:56:07 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+17:56:08 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+17:56:08 - main - DEBUG - getJobs: 49 - Processing def getInfo
+17:56:08 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): jobs.dou.ua:443
+17:56:09 - connectionpool - DEBUG - _make_request: 546 - https://jobs.dou.ua:443 "GET / HTTP/1.1" 200 None
+17:56:09 - main - ERROR - getJobs: 67 - [Errno 2] No such file or directory: 'data_jobs_dou.txt'
+Traceback (most recent call last):
+  File "e:\Projects\parcer\main.py", line 63, in getJobs
+    with open('data_jobs_dou.txt') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data_jobs_dou.txt'
+17:56:09 - main - INFO - getJobs: 69 - Ended on def getJobs
+17:56:09 - main - INFO - getInfo: 40 - Success
+17:56:47 - main - INFO - getInfo: 22 - Started
+17:56:47 - main - DEBUG - getInfo: 25 - Processing def getInfo
+17:56:47 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+17:56:47 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+17:56:47 - main - DEBUG - getJobs: 49 - Processing def getInfo
+17:56:47 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): jobs.dou.ua:443
+17:56:48 - connectionpool - DEBUG - _make_request: 546 - https://jobs.dou.ua:443 "GET / HTTP/1.1" 200 None
+17:56:48 - main - INFO - getInfo: 40 - Success
+17:57:15 - main - INFO - getInfo: 22 - Started
+17:57:15 - main - DEBUG - getInfo: 25 - Processing def getInfo
+17:57:15 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+17:57:15 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+17:57:15 - main - DEBUG - getJobs: 49 - Processing def getInfo
+17:57:15 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): jobs.dou.ua:443
+17:57:16 - connectionpool - DEBUG - _make_request: 546 - https://jobs.dou.ua:443 "GET / HTTP/1.1" 200 None
+17:57:16 - main - INFO - getInfo: 40 - Success
+17:58:08 - main - INFO - getInfo: 22 - Started
+17:58:08 - main - DEBUG - getInfo: 25 - Processing def getInfo
+17:58:08 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+17:58:08 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+17:58:08 - main - DEBUG - getJobs: 49 - Processing def getInfo
+17:58:08 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): jobs.dou.ua:443
+17:58:08 - connectionpool - DEBUG - _make_request: 546 - https://jobs.dou.ua:443 "GET / HTTP/1.1" 200 None
+17:58:08 - main - INFO - getJobs: 64 - Success on def getJobs
+17:58:08 - main - INFO - getInfo: 40 - Success on def getInfo
+18:00:07 - main - INFO - getInfo: 22 - Started
+18:00:07 - main - DEBUG - getInfo: 25 - Processing def getInfo
+18:00:07 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:00:08 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:00:08 - main - DEBUG - getJobs: 49 - Processing def getInfo
+18:00:08 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): jobs.dou.ua:443
+18:00:08 - connectionpool - DEBUG - _make_request: 546 - https://jobs.dou.ua:443 "GET / HTTP/1.1" 200 None
+18:00:09 - main - INFO - getInfo: 40 - Success
+18:02:54 - main - INFO - getInfo: 22 - Started
+18:02:54 - main - DEBUG - getInfo: 25 - Processing def getInfo
+18:02:54 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:02:55 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:02:55 - main - DEBUG - getJobs: 49 - Processing def getInfo
+18:02:55 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): jobs.dou.ua:443
+18:02:55 - connectionpool - DEBUG - _make_request: 546 - https://jobs.dou.ua:443 "GET / HTTP/1.1" 200 None
+18:02:55 - main - INFO - getInfo: 40 - Success
+18:03:33 - main - INFO - getInfo: 22 - Started
+18:03:33 - main - DEBUG - getInfo: 25 - Processing def getInfo
+18:03:33 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:03:33 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:03:33 - main - DEBUG - getJobs: 49 - Processing def getInfo
+18:03:33 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): jobs.dou.ua:443
+18:03:34 - connectionpool - DEBUG - _make_request: 546 - https://jobs.dou.ua:443 "GET / HTTP/1.1" 200 None
+18:03:34 - main - INFO - getInfo: 40 - Success
+18:05:09 - main - INFO - getInfo: 23 - Started
+18:05:09 - main - DEBUG - getInfo: 26 - Processing def getInfo
+18:05:09 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:05:10 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:05:10 - main - DEBUG - getJobs: 50 - Processing def getInfo
+18:05:10 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): jobs.dou.ua:443
+18:05:10 - connectionpool - DEBUG - _make_request: 546 - https://jobs.dou.ua:443 "GET / HTTP/1.1" 200 None
+18:05:10 - main - INFO - getInfo: 41 - Success
+18:06:23 - main - INFO - getInfo: 22 - Started
+18:06:23 - main - DEBUG - getInfo: 25 - Processing def getInfo
+18:06:23 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:06:23 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:06:23 - main - DEBUG - getJobs: 49 - Processing def getInfo
+18:06:23 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): jobs.dou.ua:443
+18:06:24 - connectionpool - DEBUG - _make_request: 546 - https://jobs.dou.ua:443 "GET / HTTP/1.1" 200 None
+18:06:24 - main - INFO - getInfo: 40 - Success

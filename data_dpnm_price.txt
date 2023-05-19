@@ -1,4 +1,3 @@
-Date: 04/18, Price: 1.0000
 Date: 04/19, Price: 5.4400
 Date: 04/20, Price: 5.6900
 Date: 04/21, Price: 5.7900
@@ -28,3 +27,4 @@ Date: 05/14, Price: 6.2300
 Date: 05/15, Price: 6.2300
 Date: 05/16, Price: 6.2400
 Date: 05/17, Price: 6.2500
+Date: 05/18, Price: 6.2600
