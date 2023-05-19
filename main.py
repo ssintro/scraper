@@ -1,8 +1,11 @@
 import logging
+import inspect
 import json
 from bs4 import BeautifulSoup
 import requests
 import lxml
+
+logging.info("Started")
 
 # URL = 'https://dou.ua/'
 
@@ -18,11 +21,10 @@ logging.basicConfig(level=logging.DEBUG,
 
 
 def getInfo(url, headers=headers):
-
-    logging.info("Started")
+    function_name = inspect.currentframe().f_code.co_name
 
     try:
-        logging.debug("Processing def getInfo")
+        logging.debug(f"Processing: {function_name}")
 
         req = requests.get(url=url, headers=headers)
 
@@ -37,16 +39,18 @@ def getInfo(url, headers=headers):
 
         getJobs(link_to_jobs, headers)
 
-        logging.info("Success")
+        logging.info(f"Success: {function_name}")
 
     except Exception as err:
         logging.exception(err)
 
-        logging.info("Ended on def getInfo")
+        logging.info(f"Ended: {function_name}")
 
 
 def getJobs(url, headers):
-    logging.debug("Processing def getInfo")
+    function_name = inspect.currentframe().f_code.co_name
+
+    logging.debug(f"Processing: {function_name}")
 
     try:
         req = requests.get(url=url, headers=headers)
@@ -65,10 +69,12 @@ def getJobs(url, headers):
         with open('data_jobs_dou.txt', 'w', encoding='utf-8') as file:
             file.writelines('\n'.join(jobs))
 
+        logging.info(f"Success: {function_name}")
+
     except Exception as err:
         logging.exception(err)
 
-        logging.info("Ended on def getJobs")
+        logging.info(f"Ended: {function_name}")
 
 
 def main():
@@ -77,4 +83,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    

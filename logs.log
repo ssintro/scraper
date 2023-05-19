@@ -321,3 +321,38 @@ FileNotFoundError: [Errno 2] No such file or directory: 'data_jobs_dou.txt'
 18:06:23 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): jobs.dou.ua:443
 18:06:24 - connectionpool - DEBUG - _make_request: 546 - https://jobs.dou.ua:443 "GET / HTTP/1.1" 200 None
 18:06:24 - main - INFO - getInfo: 40 - Success
+18:10:35 - main - INFO - getInfo: 22 - Started
+18:10:35 - main - DEBUG - getInfo: 25 - Processing def getInfo
+18:10:35 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:10:35 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:10:35 - main - DEBUG - getJobs: 49 - Processing def getInfo
+18:10:35 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): jobs.dou.ua:443
+18:10:35 - connectionpool - DEBUG - _make_request: 546 - https://jobs.dou.ua:443 "GET / HTTP/1.1" 200 None
+18:10:35 - main - INFO - getInfo: 40 - Success
+18:17:08 - main - INFO - getInfo: 25 - Started: getInfo
+18:17:08 - main - DEBUG - getInfo: 28 - Processing def getInfo
+18:17:08 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:17:08 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:17:08 - main - DEBUG - getJobs: 54 - Processing: getJobs
+18:17:08 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): jobs.dou.ua:443
+18:17:09 - connectionpool - DEBUG - _make_request: 546 - https://jobs.dou.ua:443 "GET / HTTP/1.1" 200 None
+18:17:09 - main - INFO - getJobs: 73 - Success: getJobs
+18:17:09 - main - INFO - getInfo: 43 - Success: getInfo
+18:17:59 - main - INFO - main: 80 - Started
+18:17:59 - main - DEBUG - getInfo: 26 - Processing: getInfo
+18:17:59 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:18:00 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:18:00 - main - DEBUG - getJobs: 52 - Processing: getJobs
+18:18:00 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): jobs.dou.ua:443
+18:18:00 - connectionpool - DEBUG - _make_request: 546 - https://jobs.dou.ua:443 "GET / HTTP/1.1" 200 None
+18:18:00 - main - INFO - getJobs: 71 - Success: getJobs
+18:18:00 - main - INFO - getInfo: 41 - Success: getInfo
+18:18:30 - main - INFO - <module>: 20 - Started
+18:18:30 - main - DEBUG - getInfo: 28 - Processing: getInfo
+18:18:30 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): dou.ua:443
+18:18:31 - connectionpool - DEBUG - _make_request: 546 - https://dou.ua:443 "GET / HTTP/1.1" 200 None
+18:18:31 - main - DEBUG - getJobs: 54 - Processing: getJobs
+18:18:31 - connectionpool - DEBUG - _new_conn: 1048 - Starting new HTTPS connection (1): jobs.dou.ua:443
+18:18:31 - connectionpool - DEBUG - _make_request: 546 - https://jobs.dou.ua:443 "GET / HTTP/1.1" 200 None
+18:18:31 - main - INFO - getJobs: 73 - Success: getJobs
+18:18:31 - main - INFO - getInfo: 43 - Success: getInfo
